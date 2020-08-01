@@ -39,4 +39,4 @@ def page_not_found(e):
     return render_template('404.html'), 404
 
 if __name__ == '__main__':
-	app.run(debug=True) # Run program whit debug mode (When debug=True)
+	app.run(debug=False) # Run program whit debug mode (When debug=True)
